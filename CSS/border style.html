@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            borders styles
+        </title>
+        <style>
+            h1
+            {
+                font-size:xx-large;
+                color:red;
+               
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                text-align: center;
+                text-shadow: 10px 10px 10px yellow;
+                padding:10px;
+                
+            }
+
+            .none
+            {
+                border:10px solid;
+                border-style: none;
+                
+            }
+
+            .dot
+            {
+                border:5px solid;
+                border-style:dotted;
+                border-width: thin;
+                border-color: aqua;
+                border-radius: 20px;
+                
+            }
+            .dash
+            {
+                border:5px solid;
+                border-style:dashed;
+                border-width: medium;
+                border-color:blue;
+                order-radius: 20px;
+                
+                
+            }
+
+            .solid
+            {
+                border:5px solid;
+                border-style:solid;
+                border-width: thick;
+                border-color:brown;
+                
+            }
+            .double
+            {
+                border:5px solid;
+                border-style:double;
+                border-width: 5px;
+                border-color:mediumslateblue;
+                
+            }
+
+            .grooved
+            {
+                border:5px solid;
+                border-style:groove;
+                border-width: 10px;
+                border-color:mediumvioletred;
+                
+            }
+
+            .ridged
+            {
+                border:5px solid;
+                border-style:ridge;
+                border-width: 3px;
+                border-color: red;
+                
+            }
+            .insets
+            {
+                border:5px solid;
+                border-style:inset;
+                border-width: 4px;
+                border-color: yellow;
+            }
+
+            .outsets
+            {
+                border:5px solid;
+                border-style:outset;
+                border-width: 5px;
+                border-color: violet;
+                
+            }
+            .hiddens
+            {
+                border:5px solid;
+                border-style:hidden;
+                border-width: thin;
+                border-color: tomato;
+            }
+
+            table,table tr th,table tr td{
+                border:2px solid;
+            }
+
+            table{
+                /*border-collapse:collapse;*/
+               border-collapse: separate;
+               /*for horizontal and verticle*/
+
+                /*border-spacing:45px 40px;*/
+                /*for horizontal*/
+               /* border-spacing: 45px 0px;*/
+                /*for verticle*/
+border-spacing:0px 40px;
+            }
+
+            .outsets{
+                color:white;
+                background-color:red;
+                border:10px solid;
+                border-color:green;
+                border-style:dotted;
+                
+                padding:10px;
+                outline-width:10px;
+                outline-style: solid ;
+                outline-color: blue;
+                paddding:10px;
+
+            }
+
+            .im
+            {
+                border:10px solid;
+                border-style: dashed;
+            
+                padding:50px;
+              /*  border-image: url('background1.JPG') 10px 30px 1 stretch;*/
+              border-image: linear-gradient(orange,green,red) 40 / 30px 10px  stretch;
+            }
+            </style>
+    </head>
+
+    <body  style="background-color: aquamarine;">
+        <div class="none">
+        <h1>
+            style none
+        </h1>
+        <p>
+            <center>
+            this is about none style.
+        </center>
+        </p>
+    </div>
+    <br>
+
+
+    <div class="dot">
+        <h1>
+            style dotted
+        </h1>
+        <p>
+            <center>
+            this is about doted style.
+        </center>
+        </p>
+    </div>
+<br>
+
+    <div class="dash">
+        <h1>
+            style dashed
+        </h1>
+        <p>
+            <center>
+            this is about dashed style.
+        </center>
+        </p>
+    </div>
+    <br>
+
+
+    <div class="solid">
+        <h1>
+            style solid
+        </h1>
+        <p>
+            <center>
+            this is about solid style.
+        </center>
+        </p>
+    </div>
+    <br>
+
+    <div class="double">
+        <h1>
+            style double
+        </h1>
+        <p>
+            <center>
+            this is about doubled style.
+        </center>
+        </p>
+    </div>
+    <br>
+
+    <div class="grooved">
+        <h1>
+            style groove
+        </h1>
+        <p>
+            <center>
+            this is about groove style.
+        </center>
+        </p>
+    </div>
+    <br>
+
+    <div class="ridged">
+        <h1>
+            style ridge
+        </h1>
+        <p>
+            <center>
+            this is about ridge style.
+        </center>
+        </p>
+    </div>
+    <br>
+
+    <div class="insets">
+        <h1>
+            style inset
+        </h1>
+        <p>
+            <center>
+            this is about inset style.
+        </center>
+        </p>
+    </div>
+    <br>
+
+    <div >
+        <h1>
+            style outset
+        </h1>
+        <p>
+            <center>
+            this is about outset style.
+        </center>
+        </p>
+    </div>
+    <br>
+
+    <div class="hiddens">
+        <h1>
+            style hidden
+        </h1>
+        <p>
+            <center>
+            this is about hidden style.
+        </center>
+        </p>
+    </div>
+    <br>
+    <br>
+
+    <h1>border collapse and spacing</h1>
+<center>
+    <div class="out">
+    <table>
+        <tr>
+            <th>name</th>
+            <th>id</th>
+            <th>degree</th>
+        </tr>
+
+        <tr>
+            <td>iqra</td>
+            <td>11</td>
+            <td>cs</td>
+        </tr>
+        <tr>
+            <td>ayesha</td>
+            <td>1122</td>
+            <td>it</td>
+        </tr>
+    </table>
+    </center>
+</div>
+<br>
+<br>
+<h1>outline</h1>
+
+<div class="outsets">
+  <center>  
+<p>this is about outline css</p>
+</center>
+
+</div>
+<br>
+<br>
+<h1>border image</h1>
+<div class="im">
+<center>  
+    <p>this is about border image</p>
+    </center>
+    </div>
+    </body>
+
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>gradient use</title>
+   
+    <style>
+        h1{
+                color:maroon;
+                background-color: lightsalmon;
+                font-size: xx-large;
+                font-family: cursive;
+                padding: 10px;
+                text-align: center;
+                
+               
+}
+.top-to-bottom
+{
+    height:100px;
+    background:linear-gradient(red,green);
+}
+
+.left-to-right
+{
+    height:100px;
+    background:linear-gradient(to right,green,yellow);
+}
+.right-to-left
+{
+    height:100px;
+    background:linear-gradient(to left,green,yellow);
+}
+.bottom-right
+{
+    height:100px;
+    background:linear-gradient(to bottom right,red,orange);
+}
+
+.bottom-left
+{
+    height:100px;
+    background:linear-gradient(to bottom left,blue,orange);
+}
+.simple-space-color
+{
+    height: 100px;
+    background: radial-gradient(red,blue,green);
+}
+.space-color
+{
+    height: 100px;
+    background: radial-gradient(red 20%,blue 20%,green 20%);
+}
+.left-bottom
+{
+    height: 100px;
+    background-image: radial-gradient(farthest-side at left bottom,red,yellow);
+}
+.right-bottom
+{
+    height: 100px;
+    background-image: radial-gradient(farthest-side at right bottom,red,yellow);
+}
+.right
+{
+    height: 100px;
+    background-image: radial-gradient(farthest-corner at right bottom,red,yellow);
+}
+.left
+{
+    height: 100px;
+    background-image: radial-gradient(farthest-corner at left bottom,red,yellow);
+}
+.side
+{
+    height: 100px;
+    background-image: radial-gradient(closest-side,red,yellow);
+}
+.corner
+{
+    height: 100px;
+    background-image: radial-gradient(closest-corner,lightcoral,lightsalmon);
+}
+</style>
+</head>
+
+<body>
+    <h1>type 1 linear gradient</h1>
+    <h1>top to bottom</h1>
+    <div class="top-to-bottom">
+        <p>top to bottom is the default linear gradient which work as from top to bottom.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="left-to-right">
+            <p>it is the left to right linear gradient. start from left and goes to right.</p>
+            <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="right-to-left">
+            <p>it is the left to right linear gradient. start from right and goes to left.</p>
+            <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="bottom-right">
+            <p>it is the bottom to right linear gradient. start from bottom and goes to left.</p>
+    
+    
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="bottom-left">
+                <p>it is the bottom to right linear gradient. start from goes and goes to left.</p>
+        
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1>type 2 radial gradien</h1>
+                <h1>simple differently spaceed color stops</h1>
+                <div class="simple-space-color">
+                    <p>it is the simple spaced color stops.without giving with %.it make a circle</p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    
+                    <h1>differently spaceed color stops with %</h1>
+                    <div class="space-color">
+                        <p>it is the  spaced color stops.with giving with %.it make a circle</p>
+                
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+    
+                        
+                        <h1>from corners</h1>
+                        <h1>left bottom</h1>
+                        <div class="left-bottom">
+                            <p>it is the  sfrom corner from left bottom</p>
+                    
+                    
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <h1>right bottom</h1>
+                            <div class="right-bottom">
+                                <p>it is the  from corner from right bottom</p>
+
+                                
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <h1>farthest corner at right bottom</h1>
+                            <div class="right">
+                                <p>it is the  from corner from  farthest corner at right </p>
+                        
+                                
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <h1>farthest corner at left bottom</h1>
+                            <div class="left">
+                                <p>it is the  from corner from farthest corner at right bottom</p>
+                        
+                        
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <h1>closest side </h1>
+                                <div class="side">
+                                    <p>it is the  from corner from closest side</p>
+                            
+                            
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <h1>closest corner</h1>
+                                    <div class="corner">
+                                        <p>it is the  from corner from closest corner</p>
+                                
+                                
+                            
+                
+            
+            
+        
+    
+    
+    
+        
+    
+
+
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title> pseudo elements</title>
+
+        <style>
+            h1::first-letter{
+                text-align: center;
+                font-family:Lucida Calligraphy;
+                font-size: 3cm;
+                color:red;
+                text-shadow: 5px 8px 9px green;
+                
+
+
+            }
+            h1{
+                color:brown;
+            }
+
+            h2::first-line
+            {
+                text-align: center;
+                font-family:Lucida Calligraphy;
+                font-size: 3cm;
+                color:red;
+                text-shadow: 5px 8px 9px green;
+                
+
+            }
+
+            h3::before{
+                content:"before";
+                color:red;
+                background-color: green;
+                
+
+
+            }
+
+            h4::after
+            {
+                content: " using after";
+                color:blue;
+                background-color: bisque;
+            }
+            h5::selection
+            {
+                color:brown;
+                background-color: aquamarine;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <center>
+        <h1> first letter</h1>
+        <p>
+            this is about first letter.
+        </p>
+
+        <h2>
+            first line
+        </h2>
+        <p>this is about first line</p>
+
+        <h3>before</h3>
+        <p>this is about before element </p>
+        <h4>after</h4>
+        <p>this is  about after element</p>
+        <h5>selection</h5>
+        <p>this is  about selection element</p>
+    </center>
+
+
+    </body>
+</html>

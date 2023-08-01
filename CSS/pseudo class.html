@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            pseudo clases
+        </title>
+<style>
+.hovered
+{
+    color:orange;
+    background-color: aquamarine;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 30px;
+}
+.hovered:hover
+{
+    color:white;
+    background-color: brown;
+}
+
+.actived
+{
+    color: yellowgreen;
+    background-color: aliceblue;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+.actived a:active
+{
+    color: red;
+    color:blanchedalmond;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+.visites
+{
+    color:aqua;
+    background-color: bisque;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.visites a:visited
+{
+    color:yellow;
+    background-color: bisque;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    text-align: center;
+
+}
+p:lang(fr)
+
+{
+    color: violet;
+    background-color: aquamarine;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+.focused
+
+{
+    color: violet;
+    background-color: aquamarine;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+input:focus{
+    background-color: brown;
+}
+
+
+
+</style>
+    </head>
+    <body>
+        <div class="hovered">
+        <h1>
+            hover 
+        </h1>
+        <p > this is a hover class</p>
+        </div>
+
+        <div class="actived">
+            <h1>active</h1>
+         <button> <a href="">this is about active</a></button>
+        </div>
+
+        <div class="visites">
+            <h1>visited</h1>
+            <a href="">this is visted</a>
+        </div>
+
+        <div>
+<h1>lang</h1>
+<p>thi is without lang class</p>
+<p lang="fr">thi is with lang class</p>
+        </div>
+
+        <div class="focused">
+            <h1>focused</h1>
+            <input type="text" name="user">
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>box shadow</title>
+
+        <style>
+
+h1{
+                color:maroon;
+                background-color: lightsalmon;
+                font-size: xx-large;
+                font-family: cursive;
+                padding: 10px;
+}
+                div
+                {
+                    width:50%;
+                    border: 5px solid red;
+                    padding: 10px;
+                    margin: 0 auto;
+            }
+            .hvb
+            {
+                box-shadow: 10px 10px 10px;
+            }
+
+            .hvbs
+            {
+                box-shadow: 10px 10px 10px 10px;
+            }
+            
+            .hvbsc
+            {
+                box-shadow: 10px 10px 10px 10px green;
+            }
+            .hvbscin
+            {
+                box-shadow: 10px 10px 10px 10px green inset;
+            }
+            .hvbscini
+            {
+                box-shadow: 10px 10px 10px 10px green initial;
+            }
+            .none
+            {
+                box-shadow: 10px 10px 10px 10px green none;
+            }
+            </style>
+    </head>
+
+    <body>
+        <h1>
+            box shadow
+        </h1>
+        <div class="hvb">
+            <p>this is for horizontal,vertical and blur shadow.</p>
+        </div>
+        <br>
+        <br>
+        <div class="hvbs">
+            <p>this is for horizontal,vertical  blur and spread shadow.</p>
+        </div>
+
+        <br>
+        <br>
+        <div class="hvbsc">
+            <p>this is for horizontal,vertical  blur spread ,color shadow.</p>
+        </div>
+        <br>
+        <br>
+        <div class="hvbscin">
+            <p>this is for horizontal,vertical  blur spread ,color  insite shadow.</p>
+        </div>
+        <br>
+        <br>
+        <div class="hvbscini">
+            <p>this is for horizontal,vertical  blur spread ,color  initial shadow.</p>
+        </div>
+        <br>
+        <br>
+        <div class="none">
+            <p>this is for horizontal,vertical  blur spread ,color  none shadow.</p>
+        </div>
+    </body>
+</html>

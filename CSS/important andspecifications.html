@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            css important
+        </title>
+        <style>
+        h1{
+            color: brown!important;
+            
+        }
+h1{
+    color:aqua;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 9px 10px red;
+    
+}
+#ides
+{
+    color:red;
+    text-shadow: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+}
+<!--id attriutes-->
+div[id="ides"]
+{
+    color:palevioletred;
+    background-color: lightgreen;
+}
+
+.classes{
+    color:aqua;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 9px 10px red;
+}
+    
+h1{
+    color:aqua;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 9px 10px red;
+    
+}
+h2{
+    color: blue;
+    background-color: bisque;
+    text-shadow: tomato;
+}
+h2{
+    color:maroon;
+    background-color: aquamarine;
+    text-shadow: yellow;
+}
+</style>
+    </head>
+    <body>
+        <div>
+        <h1>css important</h1>
+        <p> this ia about css important</p>
+    </div>
+
+    <div id="ides">
+        <h1>id specification</h1>
+        <p>this tells us that id has more piority than id attributes</p>
+    </div>
+
+    <div class="classes">
+        <h1>class specification</h1>
+        <p>this tells us that class has more piority than element attributes</p>
+    </div>
+
+    <div>
+        <h2>element specification</h2>
+        <p>this tells us that if two are both elements then second one will be considered</p>
+    </div>
+    </body>
+</html>

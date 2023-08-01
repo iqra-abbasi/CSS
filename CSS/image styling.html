@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            style background-image</title>
+
+            <style>
+                h1{
+                    text-align: center;
+                    font-size: xx-large;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    background-color: lightskyblue;
+                    color: darkred;
+                    text-shadow: 10px 10px 10px 10px yellow;
+                    padding: 10px;
+                }
+                .thumb img{
+                    border: 5px solid red;
+                    border-radius: 5px;
+                    padding:10px;
+                }
+
+                .trans img{
+                    border: 5px solid red;
+                    border-radius: 5px;
+                    padding:10px;
+                    opacity: 0.5;
+                }
+
+                .round img{
+                    
+                    border-radius: 50px;
+                   /*border-radius:50%;*/ 
+                }
+
+                .center img{
+                   /* margin: 0 auto;*/
+                   margin-left: auto;
+                   margin-right: auto;
+                   display: block;
+                }
+
+                .response img{
+                    max-width: 100%;
+                    height: auto;
+                }
+            </style>
+    </head>
+
+    <body>
+        <h1>
+            thumbnail image
+        </h1>
+
+        <div class="thumb">
+            <p>i make border around picture</p>
+            <img src="background1.JPG">
+        </div>
+        <br>
+
+ <h1>
+            transparent image
+        </h1>
+
+        <div class="trans">
+            <p>i make image blur range bt 0 to 1</p>
+            <img src="background1.JPG">
+        </div>
+        <br>
+
+        <h1>
+         round image
+        </h1>
+
+        <div class="round">
+            <p>i make image round</p>
+            <img src="background1.JPG">
+        </div>
+        <br>
+
+
+        <h1>
+            center an image
+           </h1>
+   
+           <div class="center">
+               <p>i make image center</p>
+               <img src="background1.JPG">
+           </div>
+           <br>
+
+
+           <h1>
+            responsive an image
+           </h1>
+   
+           <div class="response">
+               <p>i make image accoding to screen size</p>
+               <img src="background1.JPG">
+           </div>
+           <br>
+    </body>
+</html>

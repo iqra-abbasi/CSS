@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            overflow properties
+        </title>
+        <style>
+            h1{
+                text-align: center;
+                font-size: xx-large;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding:50px;
+                color:maroon;
+                background-color: aquamarine;
+                text-shadow: 10px 10px 10px yellow;
+            }
+          
+            
+            .visible
+            {
+                overflow: visible;
+                
+                background-color: #00ffff;
+                width:200px;
+                height:200px;
+            }
+
+            .hidden
+            {
+                overflow: hidden;
+                
+                background-color: #00ffff;
+                width:200px;
+                height:200px;
+            }
+            .scroll
+            {
+                overflow: scroll;
+                
+                background-color: #00ffff;
+                width:200px;
+                height:200px;
+            }
+
+            .auto
+            {
+                overflow: auto;
+                
+                background-color: #00ffff;
+                width:200px;
+                height:200px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>
+            visible property
+        </h1>
+        <div >
+
+<div class="visible">
+    <p>it will cover that content which will be under width<br>
+    
+        <p>it will cover that content which will be under width<br>
+            <p>it will cover that content which will be under width<br>
+                <p>it will cover that content which will be under width<br>
+                    <p>it will cover that content which will be under width<br>
+                        <p>it will cover that content which will be under width<br>
+   </p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<h1>hidden property</h1>
+
+<div class="hidden">
+    <p>it will cover that content which will be under width<br>
+    
+        <p>it will cut off the  extra content that content which will not be under width<br>
+            <p>it will cut off the  extra content that content which will not be under width<br>
+                <p>it will cut off the  extra content that content which will not be under width<br>
+                    <p>it will cut off the  extra content that content which will not be under width<br>
+                        <p>it will cut off the  extra content that content which will not be under width<br>
+            
+   </p>
+</div>
+    
+
+<h1>scroll property</h1>
+<div class="scroll">
+    <p>it will cover all that content and it will also give horizontal as well as verticle scroll bar<br>
+        <p>it will cover all that content and it will also give horizontal as well as verticle scroll bar<br>
+    
+            <p>it will cover all that content and it will also give horizontal as well as verticle scroll bar<br>
+    
+                <p>it will cover all that content and it will also give horizontal as well as verticle scroll bar<br>
+                    <p>it will cover all that content and it will also give horizontal as well as verticle scroll bar<br>
+    
+    
+    
+            
+   </p>
+</div>
+
+
+<h1>auto property</h1>
+<div class="auto">
+    <p>it will cover all that content and it will also give horizontal  scroll bar<br>
+        <p>it will cover all that content and it will also give horizontal  scroll bar<br>
+    
+            <p>it will cover all that content and it will also give horizontal  scroll bar<br>
+    
+                <p>it will cover all that content and it will also give horizontal  scroll bar<br>
+                    <p>it will cover all that content and it will also give horizontal ascroll bar<br>
+    
+    
+    
+            
+   </p>
+</div>
+    </body>
+    </html>

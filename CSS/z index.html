@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>z index</title>
+        <style>
+            h1{
+                text-align: center;
+                font-size: xx-large;
+                font-family: sans-serif;
+                font-weight: bolder;
+                font-style: oblique;
+                text-shadow: 10px 10px 10px black;
+                color:red;
+                background-color:lightgreen;
+            }
+            /*div
+            {
+                border: 5px double black;
+                width: 1000px;
+                height: 1000px;
+            position: relative;
+            border-radius: 40px;
+            }*/
+            .one
+            {
+               position: absolute;
+               
+                border: 2px solid darkblue;
+                border-radius: 30px;
+                font-size: larger;
+                font-weight: bold;
+                width: 400px;
+                height: 400px;
+                font-family: cursive;
+                color:darkblue;
+                background-color: lightseagreen;
+                text-align: right;
+                z-index:1;
+            }
+            .two
+            {
+             
+                position:absolute;
+                border: 2px solid darkred;
+                border-radius: 30px;
+                font-size: larger;
+                font-weight: bold;
+                width: 300px;
+                height: 300px;
+                font-family: cursive;
+                color:dark
+                blue;
+                background-color: lightgreen;
+                text-align: right;
+                z-index:2;
+            }
+            .three
+            {
+                
+                position: absolute;
+                border: 2px solid darkred;
+                border-radius: 30px;
+                font-size: larger;
+                font-weight: bold;
+                width: 200px;
+                height: 200px;
+                font-family: cursive;
+                color:darkblue;
+                background-color: lightcoral;
+                text-align: right;
+                z-index:3;
+            }
+            .four
+            {
+                
+                position: absolute;
+                border: 2px solid darkred;
+                border-radius: 30px;
+                font-size: larger;
+                font-weight: bold;
+                width: 150px;
+                height: 150px;
+                font-family: cursive;
+                color:darkblue;
+                background-color: lightslategray;
+                text-align: center;
+                z-index:3;
+            }
+            </style>
+    </head>
+
+    <body>
+        <h1>z index</h1>
+      <div >
+        <div class="one">one</div>
+        <div class="two">two</div>
+        <div class="three">three</div>
+        <div class="four">four</div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            print property
+        </title>
+        <style>
+            body{
+                background-color: lightsalmon;
+            }
+            h1{
+                background-color: lightskyblue;
+                font-size: xx-large;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color:red;
+
+            }
+
+            div
+            {
+               /* page-break-before: auto;*/
+              /* page-break-before: avoid;*/
+            
+               /*page-break-before:left;*/
+               /*page-break-before: right;*/
+            
+               page-break-before: always;
+            }
+
+
+
+           /* div
+            {
+               /* page-break-inside: auto;*/
+              /* page-break-inside: avoid;*/
+            
+               
+            }*/
+
+
+/* div
+            {
+               /* page-break-after: auto;*/
+              /* page-break-after: avoid;*/
+             /* page-break-after:always;*/
+              /* page-break-after: left;*/
+              /* page-break-after: right;*/
+              
+            
+               
+            }*/
+
+
+
+        </style>
+
+            </head>
+
+    <body>
+        
+            <div>
+        <h1>
+            page break before
+        </h1>
+            </div>
+
+            <div>
+                <p>
+                this is about page break before.<br>
+                in this its properties include.<br>
+                auto mean it can be break if need<br>
+                always mean break page before<br>
+                avoid means no break<br>
+                left mean left break before<br>
+                right mean left break before<br>
+                </p>
+            </div>
+        
+            <button onclick="printed()">print</button>
+
+<script>
+    function printed()
+    {
+        window.print();
+    }
+    </script>
+        
+            
+<!--
+        <h1>
+            page break inside
+        </h1>
+            </div>
+
+            <div>
+                <p>
+                this is about page break inside.<br>
+                in this its properties include.<br>
+                auto mean it can be break if need<br>
+                avoid means no break<br>
+                always mean break page before<br>
+                avoid means no break<br>
+                left mean left break before<br>
+                right mean left break before<br>
+                </p>
+            </div>
+        
+            <button onclick="printed()">print</button>
+
+<script>
+    function printed()
+    {
+        window.print();
+    }
+    </script>
+-->
+
+
+
+<!--
+        <h1>
+            page break after
+        </h1>
+            </div>
+
+            <div>
+                <p>
+                this is about page break after.<br>
+                in this its properties include.<br>
+                auto mean it can be break if need<br>
+                avoid means no break<br>
+                </p>
+            </div>
+        
+            <button onclick="printed()">print</button>
+
+<script>
+    function printed()
+    {
+        window.print();
+    }
+    </script>
+-->
+
+        
+    </body>
+</html>
